@@ -20,7 +20,7 @@ section.frm-todo{
     margin: 25px 10px;
 }
 
-section.frm-todo form input{
+ form input{
     width: 60vh;
     padding: 10px;
     font-size: 18px;
@@ -82,18 +82,39 @@ a{
     text-decoration: none;
     font-size: 1.2em;
 }
+button{
+    cursor: pointer;
+}
 a.edit{
     color: dodgerblue;
 }
 
-a.remove{
+a.remove,
+a.cancel{
     color: red;
 }
 
 a.tick{
     color: green;
 }
-.icons .fas{
+
+ul li form {
+    display : flex;
+
+}
+button.tick{
+    background: transparent;
+    color: green;
+    font-size: 1.2em;
+    outline: none;
+    border: none;
+    /* padding: 5px; */
+    margin-left: 5px;
+
+}
+
+.icons, 
+.fas{
 margin: auto 7px;
 }
 
