@@ -1,9 +1,9 @@
 const express = require('express')
 const app = express()
 const dotenv = require('dotenv')
-const mongoose = require("mongoose");
+const mongoose = require("mongoose")
 const TodoTask = require("./models/TodoTask")
-const port = 6060
+const port = process.env.PORT || 6060
 
 dotenv.config()
 
